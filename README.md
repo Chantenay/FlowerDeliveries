@@ -11,9 +11,9 @@ Functionalities:
 - Generating delivery schedule
 
 # How to use:
-To compile and run the program:
-Execute "javac FlowerDeliveries.java" INSIDE THE FOLDER to compile the program.
-Execute "java FlowerDeliveries" INSIDE THE FOLDER to run the program.
+To compile and run the program (written in Java v15):
+Execute "javac FlowerDeliveries.java" to compile the program.
+Execute "java FlowerDeliveries" to run the program.
 
 When the program is running, you will be greeted with the options: 
 [1] Enter todays deliveries
