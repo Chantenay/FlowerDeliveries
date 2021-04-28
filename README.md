@@ -1,3 +1,16 @@
+# Background
+Developed for ANU's Algorithms (COMP3600) Course in S2 2020. It uses red-black trees, Dijkstra's algorithm and priority queues. 
+
+# Application Description:
+The Flower Delivery software allows a flower delivery company to schedule their deliveries. The company needs to be able to add and look-up deliveries through the software, which is accomplished by storing deliveries in a red-black tree.
+The flower delivery company also want the schedule to be in order of delivery priority, where the highest priority deliveries are scheduled first, in order of how close they are to the previous delivery location. This is accomplished by the software through a max-heap and using Dijkstra’s algorithm to find which delivery is closest to the previously scheduled delivery, or the store’s location if no deliveries have been scheduled yet.
+Functionalities:
+- Adding deliveries
+- Looking up deliveries
+- Listing deliveries
+- Generating delivery schedule
+
+# How to use:
 To compile and run the program:
 Execute "javac FlowerDeliveries.java" INSIDE THE FOLDER to compile the program.
 Execute "java FlowerDeliveries" INSIDE THE FOLDER to run the program.
